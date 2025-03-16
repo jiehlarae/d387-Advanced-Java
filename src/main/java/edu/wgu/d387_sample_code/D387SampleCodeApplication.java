@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 @SpringBootApplication
 public class D387SampleCodeApplication {
 
