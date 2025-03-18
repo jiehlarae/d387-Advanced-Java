@@ -14,7 +14,7 @@
       <div class="navbar">
         <div class="brand">
           <a href="/#welcome">Landon <span>Hotel</span></a></div>
-         <app-messages></app-messages>
+         <app-messages [showMessage]="true" [showTimeZone]="false"></app-messages>
       </div><!-- navbar -->
     </nav>
   </div>
@@ -23,7 +23,7 @@
   <div class="scene" id="welcome">
     <article class="content">
 
-
+      <app-messages [showTimeZone]="true" [showMessage]="false"></app-messages>
 
       <div class="row">
         <div class="col-12">

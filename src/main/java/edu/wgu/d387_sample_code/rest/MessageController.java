@@ -1,5 +1,6 @@
 package edu.wgu.d387_sample_code.rest;
 
+import edu.wgu.d387_sample_code.DisplayTimeZone;
 import edu.wgu.d387_sample_code.MessagesThreading;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,5 +27,11 @@ public class MessageController {
         enThread.join();
         frThread.join() ;
         return messages;
+    }
+
+    @RequestMapping("/presentation")
+    public String[] presentation() {
+        DisplayTimeZone displayTime = new DisplayTimeZone();
+        return displayTime.timeZone();
     }
 }

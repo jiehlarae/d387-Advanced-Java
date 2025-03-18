@@ -1,4 +1,11 @@
-p {
+.show-message {
   color: white;
   font-size: 1.275em;
+}
+
+.show-time-zone {
+  color: #0e83a0;
+  font-weight: normal;
+  text-shadow: -1px -1px 0 #0e83a0;
+  font-size: 1.35em;
 }
